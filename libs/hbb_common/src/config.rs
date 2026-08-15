@@ -2154,7 +2154,10 @@ impl LocalConfig {
     config.options.insert("enable-check-update".to_string(), "N".to_string());
     store = true;
     }
-    
+    if !config.options.contains_key("enable-check-update") {
+    config.options.insert("enable-check-update".to_string(), "N".to_string());
+    store = true;
+    }
     if store {
       config.store();
     }
