@@ -1,1 +1,5 @@
-master为1.183.*的被控端，tag 1.4.9为s*.club的被控端
+RustDesk v1.4.9 自用版本
+
+1、master为1.183.*的被控端。
+
+2、v149-club分支为s*.club的被控端。
